@@ -1,0 +1,141 @@
+header{
+    height: 146px;
+}
+.header-up{
+    margin-bottom: -21px;
+}
+.logo img{
+    height: 110%;
+}
+.top-bar{
+    height: 64px;
+    background-color: black;
+    color: white;
+    line-height: 1;
+}
+.top-bar ul{
+    padding-top: 15px;
+}
+.top-bar li{
+    list-style: none;
+    float: left;
+    padding-right: 100px;
+    font-size: 24px
+}
+
+main{
+    clear: both;
+    padding-top: 20px;
+}
+
+.main-container{
+    float: left;
+    width: 73%;
+    margin-top: 23px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+h1{
+    margin-top: 0;
+    border-bottom: 3px solid gray;
+    border-left: 5px solid black;
+    padding-left: 5px;
+}
+
+h2{
+    margin-left: 20px;
+    padding-left: 9px;
+    font-size: 20px;
+    border-left: 5px solid #b61919;
+    margin-bottom: 5px;
+}
+
+form{
+    margin: 0 auto;
+    border: 3px #ebebeb solid;
+    margin-bottom: 10px;
+    background-color: #fbfbfb;
+    max-width: 100%;
+    padding-bottom: 20px;
+    padding-left: 5px;
+}
+
+form div{
+    padding: 5px;
+}
+
+label{
+    font-size: 18px;
+    
+}
+
+.text, textarea, .dropdown{
+    border: 1px solid #dfdfdf;
+    padding: 5px;
+    color: #999;
+    background: #fff;
+}
+.text:focus{       /*フォーカスされている状態*/
+    outline: none;    
+}
+
+.submit{
+    border: 1px solid #8d8888;
+    border-bottom: 3px solid black;
+    padding: 4px 10px;
+    color: white;
+    background-color: #8d8888;
+    border-radius: 5px;
+}
+
+h3{
+    border-bottom: 3px solid #ebebeb;
+    margin-top: 10px;
+    padding-bottom: 3px;
+}
+
+.kiji{
+    margin: 0 auto;
+    margin-bottom: 7px;
+    background-color: #fbfbfb;
+    border: 3px #ebebeb solid;
+    max-width: 100%;
+    padding-left: 13px;
+    padding-bottom: 10px;
+}
+
+.aside-container{
+    float: left;
+    width: 23%;
+    margin-top: 23px;
+    padding: 50px 0 20px 14px;
+    line-height: 1.5;
+}
+.aside-title{
+    font-family: "ヒラギノ角ゴシック";
+    font-size: 20px;
+    border-bottom: 3px solid gainsboro;
+    font-weight: bold;
+}
+.aside-container li{
+    list-style: none;
+    font-size: 15px;
+}
+
+.aside-container ul{
+    padding-left: 23px;
+}
+
+.text-smallsize{
+    font-size:18px;
+    letter-spacing:-3px;
+}
+footer{
+    clear: both;
+    height: 35px;
+    color: white;
+    background-color: black;
+    text-align: center;
+    padding-top: 11px;
+    letter-spacing: 3px;
+}
